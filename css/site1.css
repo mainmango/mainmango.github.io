@@ -1,0 +1,59 @@
+
+.navbar {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	border:0px;
+	min-height:38px;
+	      -webkit-box-shadow: 0px 0px 10px black;
+    -moz-box-shadow:    0px 0px 10px black;
+    box-shadow:         0x 0px 10px black;
+    z-index:999;
+
+}
+.navbar .container{
+
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+.navbar a {
+	padding-right: 14px;
+}
+
+.navbar ul {
+	position: relative;
+	margin-top: 0px;
+}
+
+.navbar li {
+	display: inline;
+	font-weight: bold;
+	font-size: 20px;
+}
+.jumbotron {
+	background-image: url('http://wallpapers.wallbase.cc/rozne/wallpaper-12470.jpg');
+	height: 500px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-bottom: 0px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+.jumbotron h1 {
+	font-family: 'Shift', sans-serif;
+	margin-bottom:0px;
+	color: white;
+	 text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.jumbotron small{
+	color:white;
+}
+
+.learn-more {
+	background-color: #f7f7f7;
+}
