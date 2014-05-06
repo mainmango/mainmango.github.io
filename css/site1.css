@@ -26,7 +26,8 @@ h4 {
 .copyright {
 	background-color: #99B2B7;
 	margin: 0px;
-	padding: 60px;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
 h6.copyright {
 	font-family: 'Montserrat';
@@ -44,9 +45,9 @@ h6.copyright {
 	margin: 0 auto;
 	padding-top: 90px;
 	padding-right: 0px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	padding-left: 0px;
-	line-height: 35px;
+	line-height: 48px;
 }
 .intro h3{
 	text-align: left;
