@@ -49,7 +49,7 @@ line-height: 35px;
 	color: red;
 }
 .jumbotron {
-	background-image: url('http://wallpapers.wallbase.cc/rozne/wallpaper-12470.jpg');
+	background-image: url(../img/bg.jpg);
 	height: 280px;
 	border-bottom: 1px solid #dbdbdb;
 	margin-bottom: 0px;
