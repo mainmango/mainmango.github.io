@@ -45,8 +45,8 @@ line-height: 35px;
 
 .intro p{
 	text-align: center;
-	margin:40px;
-	color: red;
+	margin-right: 20px;
+	left:50px;
 }
 .jumbotron {
 	background-image: url(../img/bg.jpg);
@@ -102,29 +102,30 @@ line-height: 35px;
 	text-align: center;
 	margin-left: auto;
 	position: relative;
-	left: 135px;
+	left: 140px;
 	margin-bottom: 20px;
 }
 .photo {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	left: 50%;
 	margin: 0 0 -60px -60px;
 	bottom: 0px;
 
 }
 
 .photo img {
+	display: block;
+	position: relative;
 	width: 120px;
 	height: 120px;
+	left: 28px;
+	margin-left: auto;
+	margin-right: auto;
 	-webkit-border-radius: 100px;
--moz-border-radius: 100px;
--ms-border-radius: 100px;
--o-border-radius: 100px;
-border-radius: 100px;
-box-shadow: 0 -3px 4px #343536;
-box-shadow: 0 -3px 4px rgba(0,0,0,0.5);
-padding: 3px;
-background: #fff;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+	box-shadow: 0 -3px 4px #343536;
+	box-shadow: 0 -3px 4px rgba(0,0,0,0.5);
+	padding: 3px;
+	background: #fff;
 }
