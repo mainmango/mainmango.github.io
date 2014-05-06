@@ -1,14 +1,52 @@
 
+
+
+h3 {
+	font-family: 'Droid Serif', sans-serif;
+	color: #333;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+}
+
+h4 {
+	font-family: 'Droid Serif', sans-serif;
+	color: #333;
+	font-size: 15px;
+	line-height: 25px;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+}
+
+
+h6.copyright {
+	font-family: 'Droid Serif', sans-serif;
+	color: #333;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding-top: 40px;
+}
 h3.intro {
-text-align: center;
-font-size: 22px;
+text-align: left;
+font-size: 18px;
 max-width: 660px;
 margin: 0 auto;
 padding-top: 100px;
 padding-right: 0px;
-padding-bottom: 0px;
+padding-bottom: 50px;
 padding-left: 0px;
-line-height: 30px;
+line-height: 35px;
+}
+
+.intro p{
+	text-align: center;
+	margin:40px;
+	color: red;
 }
 .jumbotron {
 	background-image: url('http://wallpapers.wallbase.cc/rozne/wallpaper-12470.jpg');
@@ -24,7 +62,7 @@ line-height: 30px;
 
 }
 .jumbotron h1 {
-	font-family: 'Shift', sans-serif;
+	font-family: 'Montserrat';
 	margin-bottom:0px;
 	position: relative;
 	margin-left: auto;
@@ -56,13 +94,17 @@ line-height: 30px;
 }
 
 .learn-more {
-	background-color: #f7f7f7;
+	margin-bottom: 100px;
 }
 
-.intro {
 
+.learn-more .col-md-4 i {
+	text-align: center;
+	margin-left: auto;
+	position: relative;
+	left: 135px;
+	margin-bottom: 20px;
 }
-
 .photo {
 	position: relative;
 	margin-left: auto;
