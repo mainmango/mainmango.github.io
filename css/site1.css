@@ -2,7 +2,7 @@
 
 
 h3 {
-	font-family: 'Droid Serif', sans-serif;
+	font-family: 'Montserrat';
 	color: #333;
 	-webkit-margin-before: 1em;
 	-webkit-margin-after: 1em;
@@ -12,7 +12,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'Droid Serif', sans-serif;
+	font-family: 'Montserrat';
 	color: #333;
 	font-size: 15px;
 	line-height: 25px;
@@ -23,33 +23,54 @@ h4 {
 
 }
 
-
+.copyright {
+	background-color: #99B2B7;
+	margin: 0px;
+	padding: 60px;
+}
 h6.copyright {
-	font-family: 'Droid Serif', sans-serif;
+	font-family: 'Montserrat';
 	color: #333;
 	border-top: 1px solid #ddd;
 	text-align: center;
-	padding-top: 40px;
-}
-h3.intro {
-text-align: left;
-font-size: 18px;
-max-width: 660px;
-margin: 0 auto;
-padding-top: 100px;
-padding-right: 0px;
-padding-bottom: 50px;
-padding-left: 0px;
-line-height: 35px;
 }
 
+.intro h2{
+	font-family: 'Montserrat';
+	letter-spacing:2px;
+	text-align: left;
+	font-size: 37px;
+	max-width: 660px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	line-height: 35px;
+}
+.intro h3{
+	text-align: left;
+	font-size: 18px;
+	max-width: 660px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	line-height: 35px;
+}
+
+.intro {
+	background-color: #D9CEB2;
+}
 .intro p{
 	text-align: center;
+	margin-top:40px;
 	margin-right: 20px;
 	left:50px;
 }
 .jumbotron {
-	background-image: url(../img/bg.jpg);
+	background-color: #948C75;
 	height: 280px;
 	border-bottom: 1px solid #dbdbdb;
 	margin-bottom: 0px;
@@ -63,14 +84,13 @@ line-height: 35px;
 }
 .jumbotron h1 {
 	font-family: 'Montserrat';
+	letter-spacing:4px;
 	margin-bottom:0px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	color: white;
-	text-shadow: black 0.1em 0.1em 0.2em;
-
+	color: black;
 }
 
 .jumbotron a {
@@ -78,7 +98,7 @@ line-height: 35px;
 }
 
 .jumbotron a:hover {
-	color: #AAAAAA;
+	color: black;
 }
 
 .jumbotron i {
@@ -96,14 +116,14 @@ line-height: 35px;
 .learn-more {
 	padding-top: 80px;
 	padding-bottom: 80px;
-	margin-bottom: 100px;
-	background-color: #001F3F;
-	color: white;
+	margin-bottom: 0px;
+	background-color: #D5DED9;
+	color: #333;
 }
 
 
 .learn-more h4 {
-	color: white;
+	color: #333;
 }
 .learn-more .col-md-4 i {
 	text-align: center;
