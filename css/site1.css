@@ -94,10 +94,17 @@ line-height: 35px;
 }
 
 .learn-more {
+	padding-top: 80px;
+	padding-bottom: 80px;
 	margin-bottom: 100px;
+	background-color: #001F3F;
+	color: white;
 }
 
 
+.learn-more h4 {
+	color: white;
+}
 .learn-more .col-md-4 i {
 	text-align: center;
 	margin-left: auto;
