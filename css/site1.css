@@ -1,6 +1,11 @@
 
 
-
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
 h3 {
 	font-family: 'Montserrat';
 	color: #333;
@@ -36,6 +41,58 @@ h6.copyright {
 	text-align: center;
 }
 
+.articles {
+	padding-left: 0px;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position:relative;
+	right: 0px;
+	display: inline;
+}
+
+
+.articles .container {
+	max-width: 1000px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+.articles p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 800px;
+}
+
+}
+.entry {
+	min-height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.textcontent {
+		display: inline;
+}
+.entry h4{
+		display;
+}
+.articles img{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	max-width: 100%;
+	margin-right:0px;
+	color: red;
+}
+
+.intro {
+	background-color: #D9CEB2;
+}
 .intro h2{
 	font-family: 'Montserrat';
 	letter-spacing:2px;
@@ -49,6 +106,7 @@ h6.copyright {
 	padding-left: 0px;
 	line-height: 48px;
 }
+
 .intro h3{
 	text-align: left;
 	font-size: 18px;
@@ -61,9 +119,6 @@ h6.copyright {
 	line-height: 35px;
 }
 
-.intro {
-	background-color: #D9CEB2;
-}
 .intro p{
 	text-align: center;
 	margin-top:40px;
@@ -71,35 +126,68 @@ h6.copyright {
 	left:50px;
 }
 .jumbotron {
-	background-color: #948C75;
-	height: 280px;
-	border-bottom: 1px solid #dbdbdb;
-	margin-bottom: 0px;
+  background: url(http://wallpapers.wallbase.cc/rozne/wallpaper-2989910.jpg) no-repeat center center fixed; 
+  background-repeat:repeat-y;
+    background-repeat:repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+
 }
 
 .jumbotron .container {
 	position: relative;
-	top: 0px;
+	top: 170px;
+	opacity: 0;
+	background-color: rgba(0,0,0,0.6);
+	width: 700px;
 
 
 }
 .jumbotron h1 {
+	border-top-style: solid;
+	border-bottom-style: solid;
 	font-family: 'Montserrat';
 	letter-spacing:4px;
 	margin-bottom:0px;
+	margin-top: 80px;
 	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	color: black;
+	color: white;
+	width: 370px;
+
+
+}
+
+.jumbotron h2 {
+	font-family: 'Montserrat';
+	font-size: 25px;
+	letter-spacing:4px;
+	margin-bottom:0px;
+	margin-top: 0px;
+	position: relative;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+
+
 }
 
 .jumbotron a {
 	color: white;
 }
-
 .jumbotron a:hover {
-	color: black;
+	position: relative; 
+	top: -5px;
 }
 
 .jumbotron i {
@@ -118,7 +206,13 @@ h6.copyright {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-bottom: 0px;
-	background-color: #D5DED9;
+  background: url(http://wallpapers.wallbase.cc/rozne/wallpaper-2989910.jpg) no-repeat center center fixed; 
+  background-repeat:repeat-y;
+    background-repeat:repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	color: #333;
 }
 
@@ -156,4 +250,12 @@ h6.copyright {
 	box-shadow: 0 -3px 4px rgba(0,0,0,0.5);
 	padding: 3px;
 	background: #fff;
+}
+
+.tabledata {
+	background-color: #D9CEB2;
+	margin: 0px;
+	border: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }

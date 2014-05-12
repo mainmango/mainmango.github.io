@@ -1,0 +1,77 @@
+html {
+	height: 100%;
+	opacity: 0;
+}
+
+body {
+	height: 100%;
+	background-image:url('../img/bg.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+}
+
+h1 {
+	font-family: 'Montserrat';
+	letter-spacing:4px;
+	text-align: center;
+	color: white;
+	}
+
+h2 {
+	font-family: 'Lato';
+	letter-spacing:4px;
+	text-align: center;
+	color: white;
+	}
+
+.navigation {
+	font-family: 'Lato';
+	color: white;
+	padding: 20px 30px 15px 30px;
+	text-transform: uppercase;
+}
+
+.navigation ul {
+	list-style: none;
+	padding-left: 0;
+	font-size: 16px;
+}
+
+.navigation li {
+	display: inline;
+	padding: 0px 5px 0px 5px;
+}
+
+.intro { 
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 300px;
+	padding: 30px 5px 20px 5px;
+	font-size: 58px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0;
+	}
+
+.intro h1 {
+	padding: 0px 0px 20px 0px;
+	font-size: 58px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+.intro a {
+	color: white;
+	font-size: 20px;
+	margin: 0px 15px 0px 15px;
+}
+
+.intro a:hover {
+	position: relative;
+	top: -5px;
+}
+
+.intro p {
+	text-align: center;
+}
