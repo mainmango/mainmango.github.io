@@ -5,3 +5,5 @@ $(document).ready(function() {
 	$('.intro').fadeTo(1000, 1);
 });
 
+
+var p = $( "p:first" );
